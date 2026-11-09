@@ -11,8 +11,17 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="回到幸福貓園藝首頁">幸福貓園藝<span> / Tillandsia</span></a>
+      <nav aria-label="網站導覽">
+        <a href="#care-section">照顧指南</a>
+        <a href="#game-section">空鳳小遊戲</a>
+        <a href="#qr-section">社群入口</a>
+        <a href="#qa-section">常見問題</a>
+      </nav>
+    </header>
     <main>
-      <section class="hero" aria-labelledby="page-title">
+      <section class="hero" id="top" aria-labelledby="page-title">
         <div class="hero__copy">
           <p class="eyebrow">Tillandsia Care Guide</p>
           <h1 id="page-title">幸福貓園藝</h1>
@@ -24,6 +33,7 @@
             <a href="#qr-section">掃描加入</a>
             <a href="#care-section">照顧方法</a>
             <a href="#qa-section">Q＆A</a>
+            <a href="#game-section">空鳳小遊戲</a>
           </div>
         </div>
 
@@ -128,6 +138,16 @@
             </a>
           </div>
         </div>
+      </section>
+
+      <section class="game-section" id="game-section" aria-labelledby="game-title">
+        <div class="game-section__copy">
+          <p class="eyebrow">Tillandsia Game</p>
+          <h2 id="game-title">空鳳小遊戲</h2>
+          <p>照顧知識看完了，換個方式和空氣植物相處。點開小遊戲，輕鬆玩一會兒。</p>
+          <a class="game-link" href="https://shanecat.github.io/all/tillandsia-game/index.html" target="_blank" rel="noopener noreferrer">開始遊戲 <span aria-hidden="true">↗</span></a>
+        </div>
+        <img src="web-assets/cat-ip.png" alt="黑白貓與空氣植物" loading="lazy" />
       </section>
 
       <section class="qa-panel" id="qa-section" aria-labelledby="qa-title">
